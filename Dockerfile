@@ -5,7 +5,7 @@ FROM php:7.4-apache
 WORKDIR /var/www/html
 
 # Copy the PHP files and CSS files to the working directory
-COPY index.php style.css /var/www/html/
+COPY index.php css/style.css /var/www/html/
 
 # Install any required PHP extensions or dependencies
 # For example, if your project requires MySQL:
